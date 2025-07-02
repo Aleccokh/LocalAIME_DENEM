@@ -63,12 +63,7 @@ llama-server \
 
 Then run the benchmark:
 ```sh
-python3 src/main.py \
-    --base-url 'http://127.0.0.1:8080/v1' \
-    --model 'my-model' \
-    --max-tokens 30000 \
-    --timeout 2000 \
-    --problem-tries 3
+python src/main.py --base-url 'http://127.0.0.1:8080/v1' --model 'my-model' --max-tokens 30000 --timeout 2000 --problem-tries 3
 ```
 
 ### See results

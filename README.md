@@ -28,12 +28,7 @@ Now you are ready to test a model on AIME 2024. Be sure to match both the `--bas
 
 ### Ollama
 ```sh
-python3 src/main.py \
-    --base-url 'http://127.0.0.1:11434/v1' \
-    --model 'gemma3:4b' \
-    --max-tokens 32000 \
-    --timeout 2000 \
-    --problem-tries 3
+python3 src/main.py --base-url 'http://127.0.0.1:11434/v1' --model 'gemma3:4b' --max-tokens 32000 --timeout 2000 --problem-tries 3
 ```
 
 ### LMStudio
